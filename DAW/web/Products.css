@@ -1,0 +1,125 @@
+#about{
+                margin-left: 200px;
+                margin-top: 920px;
+                border:1px solid;
+                width: 1020px;
+                border-color: darkgreen;
+                border-radius: 10px;
+                height: 170px;
+            }
+            #footer{
+                width: 100%;
+                background-color: darkgreen;
+                height: 50px;
+            }
+            #cr{
+                margin-left:  200px;
+                padding-top:  90px;
+                color: white;
+            }
+            #debit{
+                margin-left: 800px;
+                margin-top: 0px;
+            }
+            #alogo{
+                position: relative;
+                left: 20px;
+                top: 30px;
+            }
+            #info{
+                position: relative;
+                top: 30px;
+                left: 220px;
+            }
+            #aboutus{
+                position: relative;
+                top: 40px;
+                left: 220px
+            }
+            #privacy{
+                position: relative;
+                top: 50px;
+                left: 220px
+            }
+            #shipping{
+                position: relative;
+                top: 60px;
+                left: 220px
+            }
+            #myac{
+                position: relative;
+                top: 40px;
+                left: 440px;
+            }
+            #brand{
+                width: 100px;
+                height: 50px;
+            }
+            #minmax{
+                margin-left: 130px;
+                margin-top: 20px;
+            }
+            .mn{
+                width: 60px;
+                height: 30px;
+                box-shadow: 0px 0px  5px 5px;
+                color: darkblue;
+
+
+            }
+            table tr th:hover{
+                color: red;
+                margin-left: 10px;
+
+            }
+            #se{
+                position: absolute;
+                top: 0px;
+                left: 250px;
+                background-color: white;
+                width: 400px;
+                height: 500px;
+                overflow: scroll;
+                padding:10px;
+                display: none;
+            }
+
+            .upp{
+                display: inline-block;
+                padding-left: 10px;
+                padding-right: 10px;
+                border:none;
+                color: white;
+
+            }
+            .upp:hover{
+                color: red;
+                background: none;
+
+            }
+            #ok{
+                padding: 10px;
+            }
+            #ok:hover{
+                color: red;
+                cursor: pointer;
+
+            }
+            #img{
+                width: 80px;
+                height: 50px;
+
+            }
+            .box{
+                border-radius:20px;
+                height:1300px;
+                width:820px;
+                border:1px solid blue;
+                overflow:hidden;
+                position: absolute;
+                top: 210px;
+                left: 330px;
+                background: white;
+                display: block;
+
+            }

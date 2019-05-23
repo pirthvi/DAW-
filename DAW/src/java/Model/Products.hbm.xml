@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 6, 2019 6:14:55 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Products" table="products" catalog="onlineshoping" optimistic-lock="version">
+        <id name="model" type="string">
+            <column name="Model" length="500" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="Name" length="500" not-null="true" />
+        </property>
+        <property name="price" type="java.lang.Float">
+            <column name="Price" precision="12" scale="0" />
+        </property>
+        <property name="brands" type="string">
+            <column name="Brands" length="500" />
+        </property>
+        <property name="manfImage" type="string">
+            <column name="ManfImage" length="500" />
+        </property>
+        <property name="description" type="string">
+            <column name="Description" length="500" />
+        </property>
+        <property name="gender" type="string">
+            <column name="Gender" length="100" />
+        </property>
+        <property name="category" type="string">
+            <column name="Category" length="100" />
+        </property>
+        <property name="brandimg" type="string">
+            <column name="brandimg" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 6, 2019 6:14:55 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Orders" table="orders" catalog="onlineshoping" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="Id" />
+            <generator class="identity" />
+        </id>
+        <property name="PId" type="java.lang.Integer">
+            <column name="P_id" />
+        </property>
+        <property name="size" type="string">
+            <column name="Size" length="25" />
+        </property>
+        <property name="quantity" type="int">
+            <column name="Quantity" not-null="true" />
+        </property>
+        <property name="color" type="string">
+            <column name="Color" length="25" />
+        </property>
+        <property name="userId" type="int">
+            <column name="user_id" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

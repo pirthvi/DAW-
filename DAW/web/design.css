@@ -1,0 +1,280 @@
+body{
+    background-image:url("white_leather");
+    background-color: lavender;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.up{
+    background-color: darkgreen;
+    color: white;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border:none;
+    color: white;
+}
+#upp{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none;
+   
+    color: white;
+
+}
+#reg{
+    margin-left: 1000px;
+    padding: 5px;
+    font-size: 80%;
+    padding: 5px;
+}
+#men , #women , #todd ,#cntct ,#home{
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    background: linear-gradient(darkgreen,darkblue);
+    font-size: 90%;
+    padding-top:5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 5px 5px 0px gray;
+    margin-bottom: 0px;
+
+
+}
+#but{
+
+    margin-left: 400px;
+
+}
+#search{
+    width: 300px;
+    height: 25px;
+    margin-left: 600px;
+    margin-top: 40px;
+    border: 1px solid;
+    border-color: darkblue;
+}
+#sb{
+    background-color: darkblue;
+    color: white;
+    padding: 5px 10px;
+}
+
+#lineone{
+    border: solid 2px darkblue;
+    width: 920px;
+    margin-left: 200px;
+    margin-top: 30px;
+
+}
+#logo{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+#cat{
+
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left:130px;
+    border: 1px solid;
+    width: 170px;
+    display: inline-block;
+    border-color: darkblue;
+
+}
+table tr th{
+    padding: 3px;
+    font-size: 80%;
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+
+}
+table tr th:hover{
+    color: darkred;
+    margin-left: 5px;
+
+}
+#catg{
+    background-color: darkblue;
+    font-size: 120%;
+    border: 1px  solid;
+    border-radius: 20px;
+    padding-left:  5px;
+    padding-right: 85px;
+    padding-bottom: 5px;
+
+    color: white;
+    display: inline-block;
+
+}
+hr{
+    border: 1px dashed;
+    width: 160px;
+    border-color: lightgray;
+
+}
+.box{
+    border-radius:20px;
+    height:1300px;
+    width:820px;
+    border:1px solid blue;
+    overflow:hidden;
+    position: absolute;
+    top: 210px;
+    left: 330px;
+    background: white;
+
+}
+.heading
+{
+    color:white;
+    background:darkblue;
+    height:40px;
+    line-height: 40px;
+    max-width:100%;
+    padding:0px 20px; 
+    font-family:tahoma;
+}
+form
+{
+    float:right;
+    width:250px;
+}
+.content
+{
+    border-radius:5px;
+    height:365px;
+    padding:10px;
+    width:170px;
+    margin:5px;
+    background:gainsboro;
+    display: inline-block;
+}
+.content:hover{
+    background-color: wheat;   
+}
+.name
+{
+    width:100%;
+    height:50px;
+
+}
+.name:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.image
+{
+    width:100%;
+    height:200px;
+}
+.price
+{
+    text-align: center;
+    width:100%;
+    height:20px;
+    line-height:20px;
+
+}
+.tags
+{
+    max-width:200px;
+    width: 100px;
+    height:50px;
+    padding:0px 25px;
+
+}
+.model
+{
+    text-align: center;
+    width:100%;
+    height:20px;
+    line-height: 20px;
+
+}
+.info
+{
+    text-align: center;
+    width:100%;
+    height:40px;
+    line-height:40px;
+
+
+
+}
+#butg
+{
+    padding:2px 20px;
+    border-radius: 20px;
+    color: white;
+    background: darkblue;
+}
+ul{
+    display: inline-block;
+}
+#ok{
+    display: inline-block;
+    float: left;
+}
+#manf{
+
+    width: 150px;
+    height: 80px;
+    margin-left: 130px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: white;
+}
+#mcat{
+    background-color: darkblue;
+    font-size: 100%;
+    border: 1px  solid;
+    border-radius: 20px;
+    padding-left:  5px;
+    padding-right: 55px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+    color: white;
+    display: inline-block;
+
+}
+#sctmanf{
+    padding: 5px 3px;
+    border-radius: 5px;
+
+}
+#nx{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid;
+    color: black;
+    cursor: pointer;
+    border-color: darkgreen;
+    font-family: Calibri;
+    padding: 10px;
+
+}
+ul{
+
+    cursor: pointer;
+}
+#next{
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+#nx:hover{
+    background-color: darkblue; 
+}
+ul li:active{
+    background-color: darkblue;
+}
